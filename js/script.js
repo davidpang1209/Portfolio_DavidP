@@ -6,4 +6,12 @@ $(document).ready(function(){ //jquery
         pagination: false
     });
 
+    var typedJS = new Typed(".typedJS",  {
+        strings: ['Software Engineer.', 'Web Developer.', 'Student.'],
+        typeSpeed: 70,
+        loop: true,
+        startDelay: 900,
+        showCursor: false
+    });
+
 });
