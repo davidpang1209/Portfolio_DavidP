@@ -40,7 +40,7 @@ $(document).ready(function(){ //jquery
     $(window).scroll(function() {
 
         if (window.pageYOffset > skillsOffset -$(window).height() + 200  ) {
-            
+
             $('.chart').easyPieChart({
                 easing: 'easeInOut',
                 barColor: '#fff',
@@ -54,5 +54,6 @@ $(document).ready(function(){ //jquery
         });
         }
     });
+   
 });
 
